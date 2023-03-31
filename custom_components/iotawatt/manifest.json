@@ -1,11 +1,11 @@
 {
   "domain": "iotawatt",
   "name": "IoTaWatt",
-  "codeowners": ["@gtdiehl", "@jyavenard"],
+  "codeowners": ["@llamafilm"],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/iotawatt",
   "iot_class": "local_polling",
   "loggers": ["iotawattpy"],
-  "requirements": ["iotawattpy==0.1.0"],
+  "requirements": ["git+https://github.com/home-assistant-libs/iotawattpy.git@main#iotawattpy==0.1.1"],
   "version": "1.0.0"
 }
