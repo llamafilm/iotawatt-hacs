@@ -4,7 +4,9 @@
   "codeowners": ["@llamafilm"],
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/iotawatt",
+  "integration_type": "device",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/llamafilm/iotawatt-hacs/issues",
   "loggers": ["iotawattpy"],
   "requirements": ["git+https://github.com/home-assistant-libs/iotawattpy.git@main#iotawattpy==0.1.1"],
   "version": "1.0.0"
