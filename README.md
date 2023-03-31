@@ -1,4 +1,4 @@
-# Integration Blueprint
+# Iotawatt
 
 [![GitHub Release][releases-shield]][releases]
 [![hacs][hacsbadge]][hacs]
